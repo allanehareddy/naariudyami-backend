@@ -1,5 +1,8 @@
 // Advanced LLM Integration with Multiple Providers and Fallbacks
 import aiConfig from '../../../config/ai-config.js';
+// Other imports at the top
+import fetch from "node-fetch";
+
 
 export interface LLMRequest {
   prompt: string;
